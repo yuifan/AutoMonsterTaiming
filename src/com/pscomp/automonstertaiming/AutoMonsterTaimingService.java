@@ -15,9 +15,9 @@ import android.view.View;
 import android.view.View.OnTouchListener;
 import android.view.WindowManager;
 
-public class FloatViewService extends Service {
+public class AutoMonsterTaimingService extends Service {
     
-    private static final String TAG = "FloatViewService";
+    private static final String TAG = "AutoMonsterTaimingService";
     private WindowManager mWindowManager = null;
     private StarView mStarView = null;
     
